@@ -1,0 +1,1 @@
+webová aplikace autobazaru vytvořená v HTML a JavaScriptu. Umožňuje přidávat auta do seznamu, mazat je a automaticky zobrazuje počet aut a jejich průměrnou cenu. Aplikace se spouští otevřením souboru index.html v prohlížeči.
