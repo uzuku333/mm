@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Autobazar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Autobazar</h1>
+
+<form id="autoForm">
+  <input type="text" name="znacka" placeholder="Značka">
+  <input type="text" name="model" placeholder="Model">
+  <input type="number" name="rok" placeholder="Rok výroby">
+  <input type="number" name="cena" placeholder="Cena (Kč)">
+  <button type="submit">Přidat auto</button>
+</form>
+
+<p id="chyba" class="chyba"></p>
+
+<ul id="seznamAut"></ul>
+
+<p id="souhrn">Počet aut: 0 | Průměrná cena: 0 Kč</p>
+
+<script type="module" src="Auto.js"></script>
+<script type="module" src="Autobazar.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
